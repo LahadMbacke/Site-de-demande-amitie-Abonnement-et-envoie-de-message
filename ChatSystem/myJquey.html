@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<script src="jquery-3.6.0.min.js"></script>
+	
+        <div id="IA">
+        	  <h3>Intelligence Artificielle</h3>
+        	  <p >
+        	  	  <input id="i1" type="text" name="seck" value="Baye">
+        	  	  <input id="i2" type="text" name="fama" value="coundoul">
+        	   </p>
+        	  <p id="p12">et il est mis à toutes les sauces. La raison est simple :</p> <p>l’IA ou machine learning c’est l’avenir de ces nouveaux métiers qui représenterons une part considérable de nos emplois dans le futur.</p>
+              <p>Mais que penser de ces nouveaux métiers ? sont ils l’avenir ou bien seulement un effet de mode passager et une voie sans issue en terme de débouchés professionnels.</p>
+          </div>
+	 <div id="CS">
+            	    <h3>CyberSecurite</h3>
+            	<p>L’Ingénieur Cybersécurité participe à la définition des règles de sécurité applicatives et logiques en réponse aux exigences fixées par des référentiels de bonnes pratiques </p>
+            	<p>ou par des réglementations propres à l’activité de l’entreprise.</p>
+
+            	<p>Il est également en charge d’analyser, de traiter les menaces d’intrusion et de définir les plans d’action nécessaires à leurs corrections ou leur anticipation. Il constitue une pièce </p>
+            	<p>maitresse de la Direction Technique. C’est un expert garant de la sécurité des systèmes 
+            	<p>d’information (SSI). Il maitrise les nouvelles technologies et a une grande importance à plusieurs niveaux dans la lutte contre les menaces informatiques.</p>
+            </section>
+</div>
+ <section id="GE">
+               	      <h3>Genetique</h3>
+               	<p>Le généticien (ou chercheur en génétique) étudie et analyse les caractères héréditaires des </p>
+               	<p>êtres vivants (micro-organismes, animaux, végétaux, êtres humains) à travers leur génome (ensemble du matériel génétique d'un être vivant) qui est codé dans leur ADN (acide </p>
+               	<p>désoxyribonucléique). Ce scientifique réalise des expérimentations pour repérer les points communs et les différences pouvant exister entre espèces (animales ou végétales), </p><p>afin les améliorer. La génétique se conjugue avec de nombreuses autres disciplines : la démographie (Albert Jacquard a acquis une renommée internationale dans le domaine de la génétique des populations), l'agroalimentaire (mise au point du fameux maïs transgénique) ou la criminologie (empreintes génétiques pour identifier des criminels).</p>
+</body>
+  <script >
+
+  	
+  	$("#IA h3").css({
+                       "width":"70%",
+                       "margin":"auto",
+                       "border":"1px solid lime"
+                      });
+
+
+
+ 
+  	$("#CS h3 ").mouseover(function ()
+      {$(this).css("color","red");}
+     );
+
+
+
+  $("#i1").on("keyup",function(e){
+       var c = e.whice;
+       c=String.fromCharCode(c);
+          if (c=='z')
+            $("#i2").focus();
+  });
+
+
+  $("p" ).mouseover(function(){
+    {$(this).css("color","blue");}
+  });
+
+  $("p" ).mouseout(function(){
+    {$(this).css("color","red");}
+  });
+
+
+  $("h3").one("click",function () {
+    $(this).html();
+  });
+
+setInterval(function(){
+  $("#IA").slideUp(200,function(){
+    $("#IA").slideDown(200)
+  })
+
+},400);
+
+setInterval(function(){
+$("#IA").slideToggle()
+},1);
+
+$("#IA").animate()
+var p12 = document.querySelector("#p12");
+p12.addEventListener("click",function(){
+           v1=$("#i1").val();
+            v1=$("#i2").val();
+
+            alert($("#IA h4 +p ").html()+v1);
+},false)
+
+
+
+  </script>
+</html>

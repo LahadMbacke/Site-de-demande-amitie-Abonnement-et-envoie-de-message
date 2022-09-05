@@ -1,0 +1,382 @@
+.droite{
+	background-color:#1abc9c ;
+ position: relative;
+ max-width: 80%;
+ width: auto;
+ margin: 10px 0;
+ padding: 10px;
+ box-shadow: 1px 1px 0px rgba(0, 0, 0, .30);
+ border-radius: 10px 10px 10px 0;
+ float: right;
+ clear: both;
+}
+.gauch
+{
+	background-color: #34495e;
+  position: relative;
+ max-width: 80%;
+ width: auto;
+ margin: 10px 0;
+ padding: 10px;
+ box-shadow: 1px 1px 0px rgba(0, 0, 0, 1.0);
+ border-radius: 10px 10px 10px 0;
+ float: left;
+ clear: both;
+ color: white;
+}
+
+
+.bi-chat{
+	 font-size: 20px;
+}
+.bi-house
+{
+	font-size: 20px;
+}
+
+.bi-person-plus-fill
+{
+  font-size: 20px;
+}
+.bi-people{
+	font-size: 20px;
+}
+/*#charger-message
+{
+	position: relative;
+	height: 300px;
+	width: 50%;
+	background: #bdc3c7;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-top: 20px;
+	border-radius: 10px;
+	
+}*/
+textarea
+{
+	width: 45%;
+	/*text-align: center;*/
+	margin-left: 340px;
+}
+.mysms
+{
+	margin: auto;
+	background-color: white;
+	padding: 10px;
+	width: 50%;
+	height: 300px;
+	margin-top: 20px;
+	border-radius: 10px;
+	position: relative;
+	word-break: break-word;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	margin-top: 20px;
+}
+./*myContent
+{
+	position: relative;
+}*/
+}
+.bodymess
+{
+  background-color: black;
+}
+
+
+/*::::::!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!MENU:::::::::::::::::::::::::::::::::::::*/
+body,html{
+	margin: 0px;
+}
+header{
+	margin: 0px;
+	background-color: #2f4f4f;
+	height: 100px;
+	/*position: fixed;*/
+}
+
+header nav{
+	padding: 30px 5% 0 5%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+}
+
+
+.Navgauch
+{
+	display: flex;
+	/*margin-left: -300PX;*/
+}
+.Navdroite{
+	display: flex;
+	align-items: center;
+}
+
+ header nav .Navgauch p{
+ 	margin:0 15px 0 0;
+ 	color: white;
+ }
+ header nav .Navgauch a{
+ 	text-decoration: none;
+ }
+
+  header nav .Navdroite p{
+ 	margin:0 15px 0 0;
+ 	color: white;
+ }
+ header nav .Navdroite a{
+ 	text-decoration: none;
+ }
+
+         /*/////////////////////////////////////////////ACCEUIL COMPTE////////////////////////////////////*/
+
+.profil
+{
+	margin-top: 0px;
+	background-color:#2f4f4f;
+	height: 142px;
+	width: 100%;
+	display: inline-block;
+	padding: 20px;
+}
+#nom_prenom
+{
+	color: white;
+}
+#statut
+{
+	color: red;
+}
+
+.imgProfil{
+	float: left;
+	width: 55%;
+	display: flex;
+	margin-top: -20px;
+	margin-left: -400px;
+}
+
+
+
+
+
+
+
+
+.rounded-circle
+{
+margin-left:400px;
+width: 20%;
+}
+
+
+
+#alignement
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.myform
+{
+	border: 1px solid black;
+	width: 50%;
+	margin: auto;
+	/*text-align: center;*/
+}
+.myForm
+{
+	border: 1px solid black;
+	width: 50%;
+	margin: auto;
+	padding: 20px;
+}
+
+/*/////////////////////////////////////////////RECHERCHE MEMBRE///////////////////////////////////////:*/
+#resultatMembre
+{
+	background-color:white;
+	border: 0px solid white;
+	height: 300px;
+	width: 50%;
+	margin-top: 10px;
+	margin-left: 500px;
+}
+
+#lesMembres
+{
+	/*border: 1px solid black;*/
+	width: 70%;
+	margin: auto;
+	height: 400px;
+	/*background-color: grey;*/
+}
+.formCH
+{
+	border: 0px white ;
+}
+
+    :::::::::::////////////////////////////////////////////AFFICHE MEMBRE/////////////////////////////////
+
+/*.movPhoto{
+	margin: auto;
+	margin-left: -340px;
+}*/
+    .postionProfil
+    {
+    	/*margin-right: -20px;*/
+    	color: green;
+    	/*padding: 0px;*/
+    	border: 1px solid black;
+    }
+
+#load
+{
+	/*margin-left: 47%;*/
+	margin: auto;
+	border: 1px solid black;
+	/*margin-top: -220px;*/
+}
+
+#envoyer
+{
+	/*margin-left: 19%;*/
+}
+
+#phto
+{
+  margin-left: 35%;	
+}
+
+/*******************************************/
+#entett
+{
+   border: 1px solid black;	
+   width: 50%;
+   margin: auto;
+   border-radius: 10px;
+}
+#message
+{
+	background-color: #c0c0c0;
+}
+
+
+/*************************************8*/
+div.fixed {
+  position: relative;
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 1000px;*/
+  margin-top: -400px;
+  width: 250px;
+  height:250px ;
+  /*border: 3px solid #73AD21;*/
+}
+
+/*****************************************************************/
+div.vpfixed {
+  position: fixed;
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 1000px;*/
+  margin-top: -300px;
+  width: 250px;
+  height:250px ;
+  /*border: 3px solid #73AD21;*/
+}
+div.dmFixed {
+  position: fixed;
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 1000px;*/
+  margin-top: -300px;
+  /*width: 250px;
+  height:250px ;*/
+  /*border: 3px solid #73AD21;*/
+}
+/****************************************************************************/
+
+div.amisFixed {
+  position: fixed;
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 1000px;*/
+  margin-top: -300px;
+  /*width: 250px;
+  height:250px ;*/
+  /*border: 3px solid #73AD21;*/
+}
+/****************************************************************************/
+div.hisFixed {
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  right: 0;
+  /*margin-bottom: 1000px;*/
+  /*margin-top: -300px;*/
+  /*width: 250px;
+  height:250px ;*/
+  /*border: 3px solid #73AD21;*/
+}
+
+/***************************************************************************/
+div.cherchFixed {
+  /*position: fixed;*/
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 1000px;*/
+  /*margin-top: -300px;*/
+ /* width: 250px;
+  height:250px ;*/
+  /*border: 3px solid #73AD21;*/
+}
+div.msgFixed
+{
+	 /*position: fixed;*/
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 1000px;*/
+  margin-top: -3px;
+/*  width: 250px;
+  height:250px ;*/
+  /*border: 3px solid #73AD21;*/
+}
+div.entetFixed
+{
+	 /*position: fixed;*/
+  /*bottom: 0;*/
+  /*right: 0;*/
+  /*margin-bottom: 1000px;*/
+  margin-top: -3px;
+  /*width: 250px;*/
+  /*height:250px ;*/
+  /*border: 3px solid #73AD21;*/
+}
+
+#Accueil
+{
+	margin-top: -300px;
+	border: 1px solid black;
+	width: 75%;
+	/*margin: auto;*/
+	margin-left: 190px;
+	height: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
